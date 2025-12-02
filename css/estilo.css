@@ -1,9 +1,9 @@
 :root {
-  --primary: #8abeb9;
-  --secondary: #305669;
-  --text-color: #f5f5f5;
-  --text-secondary: #87e5cd;
-  --text-tertiary: #c1785a;
+  --primary: #a0b9fd;
+  --secondary: #252525;
+  --text-color: #dbdbdbfb;
+  --text-secondary: #d400ff;
+  --text-tertiary: #6d62ad;
 }
 
 * {
@@ -12,6 +12,13 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 14px;
+}
+
+body {
+  background-color: #cecece;
+  color: #000000;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.6;
 }
 
 #event-subscription {
